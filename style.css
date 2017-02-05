@@ -1,0 +1,189 @@
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {float: left;}
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+@font-face {
+      font-family: 'caviar_dreamsregular';
+      src: url(CaviarDreams-webfont.ttf) format('truetype');
+}
+header {
+    background:url(bgh.jpg) no-repeat;
+    width: 100%;
+    height: 780px;
+    padding-top: 1px;
+}
+.clear{
+    clear: both;
+}
+.logo{
+    padding: 10px;
+}
+.menu{
+    margin: 0 auto;
+    width: 100%;
+}
+.menu ul{   
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    line-height: 80px;
+    position: relative;
+    border:solid transparent;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #f7f7f7;
+    display: block;
+    padding: 0 15px;
+    font-size: 20px;
+}
+.menu ul li:hover{
+    border-bottom: 2px solid white;
+}
+.menu ul li a:hover{
+    color: rgba(249, 245, 245, 0.76);
+}
+.banner{
+    margin: 50px 35px;
+    float: left;
+    max-width: 45%;
+    font-family: 'caviar_dreamsregular';
+}
+.banner h2{
+    font-size: 3em;
+    color: #ffffff;
+    text-shadow: 0 1.5px 0 rgb(34, 55, 60);
+    line-height: 1.2em;
+}
+.banner p{ 
+    size: 1em;
+    color: #fff;
+    text-shadow: 0 1px 0 rgb(152, 153, 153);
+    line-height: 1.8em;
+    margin-top: 20px;
+}
+.clear{clear: both; }
+    
+    /*-- Batas Suci --*/
+
+.conten{
+    width: 85%;
+    height: 450px;
+    margin: 15px auto;
+    padding: 0;
+}
+.quotes{
+    margin: 5%;
+    padding: 10px;
+}
+.quotes p{
+    color: #FE9E2E;
+    font-size: 2em;
+    line-height: 1.4em;
+}
+.deskripsi{  
+    padding: 40px;
+    font-family: 'caviar_dreamsregular';
+    margin: 0;
+    border-left: 2px solid #cac4be;
+    float:left;
+}
+.deskripsi a{
+    border: solid transparent;
+    text-decoration: none;
+    color: #FE9E2E;
+}
+.deskripsi a:hover{
+    color: #f3b975;
+    border-bottom: 2px  solid #FE9E2E;
+}
+.deskripsi h2{
+    color: #FE9E2E;
+    font-size: 2em;
+    text-align: left;
+}
+.deskripsi p{ 
+    color: black;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+.clear{clear: both;}
+
+    /*--BATAS SUCI--*/
+footer{
+    background: url('ftr_bg.png');
+    width: 100%;
+    height: 360px;   
+}
+.dasar{
+    width: 80%;
+    padding: 40px;
+}
+.box1{
+    margin: 0 auto;
+    font-family: 'caviar_dreamsregular';
+    padding: 5px 0;
+}
+.kontak{
+    color: white;
+    line-height: 2em;
+    font-size: 18px;
+}
+.kontak a{
+    text-decoration: none;
+    color: white;
+}
+.kontak a:hover{
+    color: rgba(249, 245, 245, 0.76);
+}
+.box2{
+    margin: 0 auto;
+    font-family: 'caviar_dreamsregular';
+    line-height: 1.5em;
+}
+.baris{
+    float: left;
+    padding: 5px 25px;
+}
+.baris h3{
+    color: white;
+    padding: 0 2px 20px 2px;
+}
+.baris ul{   
+    list-style: none;
+}
+.baris ul li{
+    position: relative;
+    border:solid transparent;
+}
+.baris ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 1.5em;
+    display: block;
+    font-size: 18px;
+margin: 0 auto;
+}
+.baris ul li:hover{
+    border-bottom: 2px solid white;
+}
+.baris ul li a:hover{
+    color: rgba(249, 245, 245, 0.76);
+}
